@@ -1,0 +1,6 @@
+---
+- name: copy vnc auto boot init script
+  copy:
+    src: files/vncboot.sh
+    dest: /etc/init.d/
+    mode: 0755

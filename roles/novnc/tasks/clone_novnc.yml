@@ -1,0 +1,6 @@
+---
+- name: Clone novnc repo
+  git:
+    repo: "{{ url }}"
+    dest: "{{ dest }}"
+    clone: yes

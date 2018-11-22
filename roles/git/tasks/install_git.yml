@@ -1,0 +1,5 @@
+---
+- name: Install git on R-pi
+  yum:
+    name: git
+    state: present

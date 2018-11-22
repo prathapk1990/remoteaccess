@@ -1,0 +1,6 @@
+---
+- name: Ensure tightvncserver is startd and enbled
+  service: 
+    name: tightvncserver
+    state: started
+    enabled: yes

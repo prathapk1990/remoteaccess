@@ -1,0 +1,9 @@
+---
+region: us
+log_level: info
+log_format: json
+tunnels:
+  demo:
+    addr: 80
+    proto: http
+    subdomain: rantcell

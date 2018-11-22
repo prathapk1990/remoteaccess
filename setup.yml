@@ -1,0 +1,14 @@
+---
+- hosts: servers
+  remote_user: root 
+  become: yes
+  roles:
+    - tightvnc 
+    - git
+    - websockify
+    - novnc
+    - ngrok
+  tasks:
+  - name: reboot R-pi
+    reboot:
+      reboot_timeout: 200

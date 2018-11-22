@@ -1,0 +1,6 @@
+---
+# tasks file for ngrok
+- name: Include OS-specific variables.
+  include_vars: "../vars/main.yml"
+- include_tasks: download_ngrok.yml
+- include_tasks: start_ngrok.yml

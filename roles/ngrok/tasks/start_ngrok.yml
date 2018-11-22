@@ -1,0 +1,9 @@
+---
+- name: copy ngrok.yml files to location
+  copy:
+    src: ../files/ngrok.yml
+    dest: /home/pi/.ngrok/
+- name: copy ngrok auto run script to pi user dir
+  copy:
+    src: ../files/run_after_boot.sh
+    dest: /home/pi/

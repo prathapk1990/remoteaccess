@@ -1,0 +1,5 @@
+---
+- name: Install  websockify on R-pi
+  yum:
+    name: python-websockify
+    state: present

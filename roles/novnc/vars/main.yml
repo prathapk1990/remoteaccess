@@ -1,0 +1,4 @@
+---
+# vars file for novnc
+url: git://github.com/kanaka/noVNC 
+dest: /home/pi/noVNC

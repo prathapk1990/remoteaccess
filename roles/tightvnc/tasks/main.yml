@@ -1,0 +1,5 @@
+---
+# tasks file for tightvnc
+- include_tasks: install_tightvncserver.yml
+#- include_tasks: enable_tightvncserver.yml
+- include_tasks: copy_files.yml

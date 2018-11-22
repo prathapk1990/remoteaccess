@@ -1,0 +1,14 @@
+---
+- name: Download ngrok zip
+  get_url:
+    url: "{{ url }}"
+    dest: "{{ dest }}"
+- name: install unzip
+  yum:
+    name: unzip
+    state: present
+- name: Extract ngrok zip
+  unarchive:
+    remote_src: yes
+    src: "{{ ngrok_file }}"
+    dest: /home/pi 

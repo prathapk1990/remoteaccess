@@ -1,0 +1,5 @@
+---
+- name: Ensure tightvncserver is installed on R-pi
+  yum: 
+    name: tightvnc-server 
+    state: present

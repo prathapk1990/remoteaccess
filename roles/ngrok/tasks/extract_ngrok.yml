@@ -1,0 +1,4 @@
+---
+
+- name: Extract ngrok zip
+  shell: unzip {{ ngrok_file }}

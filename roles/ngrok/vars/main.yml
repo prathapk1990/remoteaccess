@@ -1,0 +1,5 @@
+---
+# vars file for ngrok
+ngrok_file: "/home/pi/ngrok-stable-linux-amd64.zip"
+url: "https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip"
+dest: /home/pi/ngrok-stable-linux-amd64.zip
